@@ -11,6 +11,8 @@ System.out.println("==============================");
 System.out.println("Esta linea es en la rama remota");
 }
 public static int sumar(int a, int b) {
+return a + b;
+System.out.println("desde la rama remota");
 System.out.println("Sumando " + a + " + " + b + "...");
 int resultado = a + b;
 return resultado;
